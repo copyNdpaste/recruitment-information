@@ -1,0 +1,28 @@
+section.recruit-section {
+  border-bottom: 1px solid $gray-300;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  .recruit-item {
+    .recruit-content {}
+    .recruit-date {
+      min-width: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.recruit-section {
+    min-height: 100vh;
+    .recruit-item {
+      .recruit-content {}
+      .recruit-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.recruit-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
